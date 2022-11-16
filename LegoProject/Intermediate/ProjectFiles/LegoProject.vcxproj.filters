@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LegoProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LegoProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LegoProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Lego system progress.txt" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\LegoProject">
+      <UniqueIdentifier>{D0462811-5215-3164-8026-EF9373731C61}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LegoProject\LegoProject.Build.cs">
+      <Filter>Source\LegoProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LegoProject\LegoProject.cpp">
+      <Filter>Source\LegoProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LegoProject\LegoProject.h">
+      <Filter>Source\LegoProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LegoProject\MeshMergeFunctionLibrary.cpp">
+      <Filter>Source\LegoProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LegoProject\MeshMergeFunctionLibrary.h">
+      <Filter>Source\LegoProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

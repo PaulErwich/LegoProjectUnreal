@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "LegoProject",
+			"Path": "D:\\Unreal Projects\\Github\\LegoProject\\LegoProject\\Source\\LegoProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LegoProjectEditor",
+			"Path": "D:\\Unreal Projects\\Github\\LegoProject\\LegoProject\\Source\\LegoProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

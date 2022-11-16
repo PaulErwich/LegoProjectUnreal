@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\Github\\LegoProject\\LegoProject\\Source\\LegoProject\\LegoProject.Build.cs",
+		"D:\\Unreal Projects\\Github\\LegoProject\\LegoProject\\Source\\LegoProject.Target.cs",
+		"D:\\Unreal Projects\\Github\\LegoProject\\LegoProject\\Source\\LegoProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
