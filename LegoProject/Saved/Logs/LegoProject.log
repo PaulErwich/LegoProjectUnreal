@@ -19487,3 +19487,268 @@ Error compiling input for set node. - Node: Map Set Pin: Particles.Scale -
 [2022.11.20-23.52.14:704][432]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (90)
 [2022.11.20-23.52.14:705][432]LogModuleManager: Shutting down and abandoning module XMPP (85)
 [2022.11.20-23.52.14:705][432]LogModuleManager: Shutting down and abandoning module WebSockets (84)
+[2022.11.20-23.52.14:735][432]LogModuleManager: Shutting down and abandoning module HTTP (81)
+[2022.11.20-23.52.14:735][432]LogHttp: Warning: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.11.20-23.52.14:735][432]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE9D173A8-40EA-F75E-8FA1-B687EFAA5CC1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=83fb33684d2c3b15eadfe996af36200f%7Cb24fde19f68646c6978c01791bd108a0%7Cb99eb5cf-d263-4dea-bcfa-c23b4a405cac&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.11.20-23.52.14:735][432]LogHttp: Warning: Cleaning up 1 outstanding Http requests.
+[2022.11.20-23.52.14:747][432]LogModuleManager: Shutting down and abandoning module SSL (80)
+[2022.11.20-23.52.14:748][432]LogModuleManager: Shutting down and abandoning module ChaosCloth (76)
+[2022.11.20-23.52.14:748][432]LogModuleManager: Shutting down and abandoning module PixWinPlugin (74)
+[2022.11.20-23.52.14:748][432]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2022.11.20-23.52.14:750][432]LogModuleManager: Shutting down and abandoning module Media (71)
+[2022.11.20-23.52.14:751][432]LogModuleManager: Shutting down and abandoning module AISupportModule (68)
+[2022.11.20-23.52.14:751][432]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2022.11.20-23.52.14:751][432]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (64)
+[2022.11.20-23.52.14:751][432]LogModuleManager: Shutting down and abandoning module NiagaraShader (62)
+[2022.11.20-23.52.14:751][432]LogModuleManager: Shutting down and abandoning module VariantManagerContent (60)
+[2022.11.20-23.52.14:751][432]LogModuleManager: Shutting down and abandoning module DatasmithContent (58)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module DesktopPlatform (56)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (54)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (52)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module PlatformCrypto (50)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (48)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (46)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module SourceControl (45)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module XGEController (42)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module FastBuildController (40)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.11.20-23.52.14:752][432]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.11.20-23.52.14:753][432]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.11.20-23.52.14:753][432]LogModuleManager: Shutting down and abandoning module Virtualization (32)
+[2022.11.20-23.52.14:753][432]LogModuleManager: Shutting down and abandoning module MessageLog (31)
+[2022.11.20-23.52.14:753][432]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.11.20-23.52.14:753][432]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.11.20-23.52.14:753][432]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.11.20-23.52.14:753][432]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.11.20-23.52.14:755][432]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.11.20-23.52.14:755][432]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.11.20-23.52.14:755][432]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.11.20-23.52.14:755][432]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.11.20-23.52.14:755][432]LogModuleManager: Shutting down and abandoning module SandboxFile (12)
+[2022.11.20-23.52.14:755][432]LogModuleManager: Shutting down and abandoning module PakFile (10)
+[2022.11.20-23.52.14:755][432]LogModuleManager: Shutting down and abandoning module RSA (9)
+[2022.11.20-23.52.14:755][432]LogModuleManager: Shutting down and abandoning module NetworkFile (6)
+[2022.11.20-23.52.14:755][432]LogModuleManager: Shutting down and abandoning module StreamingFile (4)
+[2022.11.20-23.52.14:755][432]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2022.11.20-23.52.14:798][432]LogD3D12RHI: Display: D3D12 ReleaseResources: 218 items to release
+[2022.11.20-23.52.14:798][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer0", 2576 x 1416 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.20-23.52.14:798][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer1", 2576 x 1416 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.20-23.52.14:798][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer2", 2576 x 1416 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.20-23.52.14:799][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:799][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:800][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:800][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:800][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "HitProxyCPUTexture", 6717400 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:800][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "HitProxyTexture", 2038 x 820 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:800][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "BufferedRT", 2038 x 820 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.20-23.52.14:800][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:800][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:801][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:801][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:801][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:801][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:801][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:801][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 184 x 184 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:801][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 184 x 184 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:802][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 184 x 184 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:802][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 184 x 184 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:802][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 184 x 184 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:802][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.VoxelVisBuffer", 25165824 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:802][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer0", 512 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.20-23.52.14:802][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer1", 512 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.20-23.52.14:802][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer2", 512 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.20-23.52.14:803][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TextureRenderTarget2D_0", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:803][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:803][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:803][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:803][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:803][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:803][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:803][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:803][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:804][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:804][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:804][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:804][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:804][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:804][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:804][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:804][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:804][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:804][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:805][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:805][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:807][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:808][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:809][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:811][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:811][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:811][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:813][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:813][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:815][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:815][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:815][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:817][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:817][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:817][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:818][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:818][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:818][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:818][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:818][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:820][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:821][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:821][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:821][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:823][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:824][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.20-23.52.14:824][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:824][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:824][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:824][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:824][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 32 x 32 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:825][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:825][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:825][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "PrimitiveSceneDataTexture", 40 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.11.20-23.52.14:825][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "PrimitiveSceneDataTexture", 40 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.11.20-23.52.14:825][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleCurveTexture", 512 x 512 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:825][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Editor.PrimitivesDepthHistory", 4080 x 2016 x 1, Mips: 1, Format: 0x29, Flags: 0x1
+[2022.11.20-23.52.14:826][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.CameraAPVolume0", 32 x 32 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:827][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageAtlas", 512 x 512 x 256, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:828][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldCoverageAtlas", 256 x 256 x 128, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:828][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFieldPageTableCombined", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.11.20-23.52.14:828][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalSDFMipTexture", 56 x 56 x 224, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:828][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageTableStationaryLayer", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.11.20-23.52.14:828][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageTableMovableLayer", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.11.20-23.52.14:828][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SceneColor", 1608 x 1008 x 1, Mips: 1, Format: 0xA, Flags: 0x5
+[2022.11.20-23.52.14:829][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.VoxelLighting", 64 x 256 x 384, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:830][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.DepthProbeAtlasTexture", 1024 x 1024 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.20-23.52.14:830][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeAtlasTextureSource", 1024 x 1024 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:830][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FinalRadianceAtlas", 2048 x 2048 x 1, Mips: 3, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:830][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Editor.PrimitivesDepthHistory", 4080 x 2016 x 1, Mips: 1, Format: 0x29, Flags: 0x1
+[2022.11.20-23.52.14:832][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "OctahedralSolidAngleTexture", 16 x 16 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.20-23.52.14:832][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.DepthProbeAtlasTexture", 4096 x 4096 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.20-23.52.14:834][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeAtlasTextureSource", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:841][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FinalRadianceAtlas", 4352 x 4352 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:847][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Tracing", 402 x 162 x 1, Mips: 1, Format: 0xA, Flags: 0x5
+[2022.11.20-23.52.14:848][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.TracingDepth", 402 x 162 x 1, Mips: 1, Format: 0x22, Flags: 0x5
+[2022.11.20-23.52.14:849][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Reconstruct", 804 x 324 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:849][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.ReconstructDepth", 804 x 324 x 1, Mips: 1, Format: 0x22, Flags: 0x1
+[2022.11.20-23.52.14:849][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.11.20-23.52.14:849][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUTs", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.20-23.52.14:849][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.LowFrequencies", 2040 x 1008 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:849][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.LowFrequencies", 2040 x 1008 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:850][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "LightShaft.TemporalAA", 804 x 324 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:850][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.TranslucencyAlpha", 2040 x 1008 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:850][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.HighFrequencies", 2040 x 1008 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:852][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.SubpixelInfo", 2040 x 1008 x 1, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.11.20-23.52.14:852][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Metadata", 2040 x 1008 x 1, Mips: 1, Format: 0x31, Flags: 0x4
+[2022.11.20-23.52.14:852][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Translucency", 2040 x 1008 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:853][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 51 x 21 x 26, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:853][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 51 x 21 x 26, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:853][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Dummy", 1 x 1 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.20-23.52.14:853][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapCamera360APLut", 32 x 32 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:853][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.SkyViewLut", 192 x 104 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:853][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.DepthHistory", 1608 x 1008 x 1, Mips: 1, Format: 0x29, Flags: 0x4
+[2022.11.20-23.52.14:853][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapViewLut", 192 x 104 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:854][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.SubpixelInfo", 2040 x 1008 x 1, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.11.20-23.52.14:854][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Metadata", 2040 x 1008 x 1, Mips: 1, Format: 0x31, Flags: 0x4
+[2022.11.20-23.52.14:854][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.AccumulatedResolveVariance", 1608 x 1008 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.20-23.52.14:854][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.NumHistoryFramesAccumulated", 1608 x 1008 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:854][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.AccumulatedResolveVariance", 1608 x 1008 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.20-23.52.14:854][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.NumHistoryFramesAccumulated", 1608 x 1008 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:855][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.RoughSpecularIndirect", 1608 x 1008 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:858][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.DiffuseIndirect", 1608 x 1008 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:858][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "GBufferA", 1608 x 1008 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.20-23.52.14:858][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Reconstruct", 804 x 324 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:864][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.ReconstructDepth", 804 x 324 x 1, Mips: 1, Format: 0x22, Flags: 0x1
+[2022.11.20-23.52.14:864][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.11.20-23.52.14:865][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.SpecularIndirect", 1608 x 1008 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:865][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.NumHistoryFramesAccumulated", 1608 x 1008 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:865][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.FastUpdateMode", 1608 x 1008 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:865][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.RoughSpecularIndirect", 1608 x 1008 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:866][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.HighFrequencies", 2040 x 1008 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:866][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.TranslucencyAlpha", 2040 x 1008 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:866][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Translucency", 2040 x 1008 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:866][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeTranslatedWorldPosition", 101 x 94 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.11.20-23.52.14:866][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeSceneDepth", 101 x 94 x 1, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.20-23.52.14:866][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeFilteredRadiance", 808 x 752 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:866][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.SpecularIndirect", 1608 x 1008 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:866][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.NumHistoryFramesAccumulated", 1608 x 1008 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:867][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "GBufferA", 1608 x 1008 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.20-23.52.14:874][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 72 x 24 x 24, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.20-23.52.14:874][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeTranslatedWorldPosition", 101 x 94 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.11.20-23.52.14:874][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeSceneDepth", 101 x 94 x 1, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.20-23.52.14:874][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.FastUpdateMode", 1608 x 1008 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:874][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 72 x 24 x 24, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.20-23.52.14:875][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.Output", 2040 x 1008 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:875][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeFilteredRadiance", 808 x 752 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:875][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 192 x 48 x 48, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.20-23.52.14:875][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 51 x 21 x 26, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:876][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:876][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 51 x 21 x 26, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:876][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 192 x 48 x 48, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.20-23.52.14:876][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.TransmittanceLut", 256 x 64 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:876][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.MultiScatteredLuminanceLut", 32 x 32 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:876][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.DistantSkyLightLut", 1 x 1 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:876][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.PhysicalPagePool", 16384 x 4096 x 1, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.20-23.52.14:907][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:907][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneAlbedo", 4096 x 4096 x 1, Mips: 1, Format: 0x1B, Flags: 0x1
+[2022.11.20-23.52.14:908][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneOpacity", 4096 x 4096 x 1, Mips: 1, Format: 0x3D, Flags: 0x1
+[2022.11.20-23.52.14:908][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneDepth", 4096 x 4096 x 1, Mips: 1, Format: 0x23, Flags: 0x1
+[2022.11.20-23.52.14:908][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneNormal", 4096 x 4096 x 1, Mips: 1, Format: 0x31, Flags: 0x1
+[2022.11.20-23.52.14:908][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneEmissive", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2022.11.20-23.52.14:908][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneDirectLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.11.20-23.52.14:916][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneIndirectLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.11.20-23.52.14:925][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneNumFramesAccumulatedAtlas", 4096 x 4096 x 1, Mips: 1, Format: 0x3D, Flags: 0x5
+[2022.11.20-23.52.14:925][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneFinalLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.11.20-23.52.14:935][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:935][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.ConvolvedSkyRenderTarget0", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.11.20-23.52.14:936][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.CapturedSkyRenderTarget", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.11.20-23.52.14:936][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.ConvolvedSkyRenderTarget1", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.11.20-23.52.14:936][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:936][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:936][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHBlueAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:937][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHGreenAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:937][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHRedAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:943][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.TraceRadianceAtlas", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:950][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:951][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:951][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:951][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.20-23.52.14:951][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Dummy", 1 x 1 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.20-23.52.14:951][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapCamera360APLut", 32 x 32 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:952][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapViewLut", 192 x 104 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.20-23.52.14:952][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "HairLUT0", 1 x 1 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.20-23.52.14:952][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Hair.LUT(DualScattering)", 64 x 64 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.20-23.52.14:952][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ReflectionColorScratchCubemap0", 128 x 128 x 6, Mips: 8, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:953][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ReflectionColorScratchCubemap1", 128 x 128 x 6, Mips: 8, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:953][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DiffuseIrradianceScratchCubemap0", 32 x 32 x 6, Mips: 6, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:953][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "DiffuseIrradianceScratchCubemap1", 32 x 32 x 6, Mips: 6, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:953][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkySHIrradiance", 9 x 1 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.20-23.52.14:954][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:954][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "InstanceCulling.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:954][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.MainAndPostNodesAndClusterBatchesBuffer", 44040192 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:960][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.ReflectionResolveTileIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:960][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.CompactTracingIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:961][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "ShaderDraw.IndirectBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:961][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.ProcessGPUInstanceInvalidationsIndirectArgs", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:961][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.CompactRayTraceDispatchIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:961][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.CulledObjectIndirectArguments", 65520 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:961][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FilterProbesIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:961][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceCacheHardwareRayTracingIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:962][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FixupProbeBordersIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:962][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "InstanceCulling.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.20-23.52.14:962][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:962][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:962][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:962][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:963][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:963][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:963][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:963][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.14:963][432]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.20-23.52.15:140][432]LogD3D12RHI: ~FD3D12DynamicRHI
+[2022.11.20-23.52.15:140][432]LogExit: Exiting.
+[2022.11.20-23.52.15:154][432]Log file closed, 11/20/22 23:52:15
