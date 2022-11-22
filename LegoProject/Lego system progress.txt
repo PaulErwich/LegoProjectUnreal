@@ -1,35 +1,14 @@
-Place cube on XY
-
-place starting cube
-
-make spaces next to it available
-
-rest is unoccupied
-
-
-
-Set a grid - 5x5
-
-put a cube in it
-
-Enum of each spot
-
-unavailable, available, occupied
-
 Class for pieces
 
 underlying system
 
 Array of spaces
 
+Ensure all parts of block
+within grid when placing
 
-array[25]
+Ensure a connection goes both ways
+when placing
 
-5 x 5
-
-element 3 4
-
-3 * WIDTH
-+ 4
-
-15 + 4
+Check when turning into car if all pieces
+are connected to eachother
